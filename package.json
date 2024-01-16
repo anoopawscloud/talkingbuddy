@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "postinstall": "prisma generate"
-
   },
   "dependencies": {
     "@clerk/nextjs": "^4.29.1",
@@ -26,6 +25,7 @@
     "@radix-ui/react-toast": "^1.1.5",
     "@upstash/ratelimit": "^1.0.0",
     "@upstash/redis": "^1.28.0",
+    "@vercel/analytics": "^1.1.1",
     "ai": "^2.2.31",
     "axios": "^1.6.5",
     "class-variance-authority": "^0.7.0",
